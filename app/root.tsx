@@ -1,4 +1,5 @@
 import type { LinksFunction, MetaFunction } from "@remix-run/node";
+import clsx from "clsx";
 import {
   Links,
   LiveReload,
@@ -6,9 +7,11 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration,
+  useLocation,
 } from "@remix-run/react";
 import { cssBundleHref } from "@remix-run/css-bundle";
 import fontFile from "~/styles/fonts/ABCWhyteVariable.woff2";
+import * as styles from "~/styles/global.css";
 
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
@@ -31,13 +34,17 @@ export const links: LinksFunction = () => {
 };
 
 export default function App() {
+  const { pathname } = useLocation();
   return (
     <html lang="en">
       <head>
         <Meta />
         <Links />
       </head>
-      <body>
+      <body
+        className={clsx(styles.body, {
+          [styles.dashboard]: pathname.startsWith("/dashboard"),
+        })}>
         <Outlet />
         <ScrollRestoration />
         <Scripts />

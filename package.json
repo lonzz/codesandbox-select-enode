@@ -8,28 +8,33 @@
     "start": "remix-serve build"
   },
   "dependencies": {
+    "@radix-ui/colors": "^0.1.8",
+    "@radix-ui/react-slot": "^1.0.0",
+    "@remix-run/css-bundle": "^1.12.0",
     "@remix-run/node": "^1.12.0",
     "@remix-run/react": "^1.12.0",
     "@remix-run/serve": "^1.12.0",
-    "@remix-run/css-bundle": "^1.12.0",
-    "@radix-ui/react-slot": "^1.0.0",
-    "@radix-ui/colors": "^0.1.8",
     "@vanilla-extract/css": "^1.9.1",
     "@vanilla-extract/css-utils": "^0.1.2",
     "@vanilla-extract/recipes": "^0.2.5",
     "@vanilla-extract/sprinkles": "^1.5.0",
+    "clsx": "^1.1.1",
+    "framer-motion": "^9.1.6",
     "isbot": "^3.6.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "clsx": "^1.1.1",
-    "framer-motion": "^7.5.3"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@remix-run/dev": "^1.12.0",
     "@remix-run/eslint-config": "^1.13.0",
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
+    "@typescript-eslint/eslint-plugin": "^5.52.0",
+    "@typescript-eslint/parser": "^5.52.0",
     "eslint": "^8.25.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "2.8.4",
     "typescript": "^4.8.4"
   },
   "engines": {

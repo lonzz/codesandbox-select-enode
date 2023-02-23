@@ -5,6 +5,7 @@ import { Badge } from "~/components/Badge";
 import { Icon } from "~/components/Icon";
 import { VStack } from "~/components/VStack";
 import { sprinkles } from "~/styles";
+import { motion } from "framer-motion";
 import * as styles from "./styles.css";
 
 interface VersionSelectProps {
