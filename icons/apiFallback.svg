@@ -1,0 +1,9 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g>
+<path d="M3.1665 5.33268L2.91084 4.76236V5.903L3.1665 5.33268ZM7.99984 3.16602L8.2555 2.5957L7.99984 2.48109L7.74418 2.5957L7.99984 3.16602ZM12.8332 5.33268L13.0888 5.903V4.76236L12.8332 5.33268ZM7.99984 7.49935L7.74418 8.06967L7.99984 8.18427L8.2555 8.06967L7.99984 7.49935ZM3.42216 5.903L8.2555 3.73633L7.74418 2.5957L2.91084 4.76236L3.42216 5.903ZM7.74418 3.73633L12.5775 5.903L13.0888 4.76236L8.2555 2.5957L7.74418 3.73633ZM12.5775 4.76236L7.74418 6.92903L8.2555 8.06967L13.0888 5.903L12.5775 4.76236ZM8.2555 6.92903L3.42216 4.76236L2.91084 5.903L7.74418 8.06967L8.2555 6.92903Z" fill="currentColor"/>
+<path d="M3.1665 10.666L7.99984 12.8327L12.8332 10.666" stroke="currentColor" stroke-width="1.25" stroke-linecap="square"/>
+<path d="M12.8335 5.33398V10.6673" stroke="currentColor" stroke-width="1.25" stroke-linecap="square" stroke-linejoin="bevel"/>
+<path d="M3.1665 5.33398V10.6673" stroke="currentColor" stroke-width="1.25" stroke-linecap="square" stroke-linejoin="bevel"/>
+<path d="M8 7.66602V12.666" stroke="currentColor" stroke-width="1.25" stroke-linecap="square"/>
+</g>
+</svg>
