@@ -15,10 +15,9 @@ import * as styles from "~/styles/global.css";
 
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
-  title: "New Remix App",
+  title: "💃 Select Animation Party 🕺",
   viewport: "width=device-width,initial-scale=1",
 });
-
 
 export const links: LinksFunction = () => {
   return [
@@ -44,7 +43,8 @@ export default function App() {
       <body
         className={clsx(styles.body, {
           [styles.dashboard]: pathname.startsWith("/dashboard"),
-        })}>
+        })}
+      >
         <Outlet />
         <ScrollRestoration />
         <Scripts />

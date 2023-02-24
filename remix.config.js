@@ -7,8 +7,4 @@ module.exports = {
   },
   ignoredRouteFiles: ["*.css.ts"],
   sourcemap: true,
-  // appDirectory: "app",
-  // assetsBuildDirectory: "public/build",
-  // serverBuildPath: "build/index.js",
-  // publicPath: "/build/",
 };

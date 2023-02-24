@@ -19,7 +19,7 @@ module.exports = {
     "prettier/prettier": "error",
 
     // Disabled because it's a big change, but wanted state is "error".
-    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-explicit-any": "error",
   },
   parserOptions: {
     tsconfigRootDir: __dirname,

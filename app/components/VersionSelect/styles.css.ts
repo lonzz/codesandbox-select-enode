@@ -20,8 +20,6 @@ export const summary = style([
     gap: vars.space[2],
     cursor: "pointer",
     boxShadow: vars.shadow[1],
-    transition: vars.transition.default,
-    transitionProperty: "all",
     ":hover": {
       borderColor: colors.sand7,
       boxShadow:
