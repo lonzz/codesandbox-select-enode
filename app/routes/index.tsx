@@ -14,6 +14,7 @@ export default function Index() {
         versions={["2023-03-01", "2023-02-01"]}
         hash={""}
       />
+      Hello, internet
     </div>
   );
 }
