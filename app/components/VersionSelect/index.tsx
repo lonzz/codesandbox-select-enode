@@ -5,7 +5,7 @@ import { Badge } from "~/components/Badge";
 import { Icon } from "~/components/Icon";
 import { VStack } from "~/components/VStack";
 import { sprinkles } from "~/styles";
-import { motion, Variant, Variants} from "framer-motion";
+import { motion, Variant, Variants } from "framer-motion";
 import * as styles from "./styles.css";
 
 interface VersionSelectProps {
@@ -24,26 +24,26 @@ function VersionSelect(props: VersionSelectProps) {
     label = "Latest version";
   }
 
-  const contentVariants:Variants = {
+  const contentVariants: Variants = {
     open: { opacity: 1, y: 0 },
     closed: { opacity: 0, y: "-30px" },
   };
 
-  const summaryVariants:Variants = {
+  const summaryVariants: Variants = {
     hover: {
-      scale: 1.03
+      scale: 1,
     },
     tap: {
-      scale: 1.015
-    }
-  }
+      scale: 0.985,
+    },
+  };
 
-  const chevronVariants:Variants = {
+  const chevronVariants: Variants = {
     hover: {
-      scale: [1,1.3,1],
-      rotate: [0,45,0]
-    }
-  }
+      scale: [1, 1.3, 1],
+      rotate: [0, 45, 0],
+    },
+  };
 
   return (
     <motion.details
@@ -59,7 +59,10 @@ function VersionSelect(props: VersionSelectProps) {
       >
         <Icon asset="branch" size={16} weight={1.25} />
         {label}
-        <motion.span variants={chevronVariants} style={{marginInlineStart: 'auto'}}>
+        <motion.span
+          variants={chevronVariants}
+          style={{ marginInlineStart: "auto" }}
+        >
           <Icon
             asset="chevron"
             size={16}
